@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 mongoose.connect(
-       // mongoDB url ,
+  "mongodb+srv://admin-himanshu:1234@cluster0.vkousrq.mongodb.net/todolistDB",
   { useNewUrlParser: true }
 ); 
 
